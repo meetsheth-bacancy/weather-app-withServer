@@ -1,0 +1,5 @@
+1. Setting up express server, routing.
+2. Serving static assests like html, js, css on express.
+3. Template engines and templating
+4. Template engines -> Views and Partials.
+5. Outputing result on client side js 
