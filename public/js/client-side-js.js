@@ -12,7 +12,7 @@ weatherForm.addEventListener('submit',(e)=>{
 
 
     // similiar to 'request' module we used to reuest a web server in node js. But this 'fetch' method is for client side js
-    fetch('http://localhost:3000/weather?location='+location+'').then((response)=>{
+    fetch('/weather?location='+location+'').then((response)=>{
     response.json().then((data)=>{
         console.log(data);
         output.textContent=data.temperature;

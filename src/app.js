@@ -6,7 +6,7 @@ const weatherJS = require('./utils/weather.js');
 const express = require('express');
 const weather = require('./utils/weather.js');
 const app = express();
-let port = 3000;
+let port = process.env.PORT || 3000;
 
 // How to create paths efficiently
 // console.log(__filename);
